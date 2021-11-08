@@ -4,7 +4,7 @@ import { Score } from '../classes/score';
 import { Timer } from '../classes/timer';
 import { TimerColor } from '../enums/timer-color';
 
-const SPEED = 20;
+const SPEED = 1;
 
 @Injectable({
   providedIn: 'root'
