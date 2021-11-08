@@ -1,0 +1,17 @@
+<div class="timer">
+    <circle-progress
+      [percent]="timer.percent"
+      [radius]="100"
+      [outerStrokeWidth]="16"
+      [innerStrokeWidth]="8"
+      [outerStrokeColor]="timer.color"
+      [innerStrokeColor]="'grey'"
+      [animation]="false"
+      [title]="timer.timeString"
+      [titleFontSize]="'50px'"
+      [animationDuration]="300"
+      [showSubtitle]="false"
+      [showUnits]="false"
+    ></circle-progress>
+    <timer-button></timer-button>
+</div>
